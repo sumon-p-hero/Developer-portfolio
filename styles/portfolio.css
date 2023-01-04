@@ -2,9 +2,110 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    height: 64px;
+    color: #ffff;
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    border: none;
+}
 /* header & Navigation styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
-    color: blue;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* banner area */
+.banner{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.banner-title{
+    /* font-style: Bold; */
+    font-size: 85px;
+    line-height: 116px;
+    font-weight: 700;
+}
+.banner-sub-title{
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 20px;
+}
+.banner-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about-me{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+.section-title{
+    padding-bottom: 30px;
+    font-size: 35px;
+    line-height: 48px;
+}
+.section-disc{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
 }
